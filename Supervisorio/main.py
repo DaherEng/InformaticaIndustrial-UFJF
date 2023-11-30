@@ -14,5 +14,5 @@ class MainApp(App):
         return self._widget
     
 if __name__ == '__main__':
-    Builder.load_string(open("mainwidget.kv", encoding="utf-8").read(), rulesonly = True)
+    Builder.load_string(open("mainwidget.kv",encoding="utf-8").read(),rulesonly= True)
     MainApp().run()
